@@ -66,3 +66,19 @@ document.write("Empt Multidimensional Array");
  document.write("Element at index 2 is:" + fruits[2] + "<br>");
  document.write("Element at index 3 is:" + fruits[3] + "<br>");
  document.write("Element at index 4 is:" + fruits[4] + "<br>");
+
+//   Question 6
+
+document.write( "<h1>" + "Question 6" + "<br>"  + "</h1>");
+
+ document.write("<b> Counting </b> <br> <br>");
+
+ for(var i = 1; i <= 15; i++){
+    document.write(i + " , ");
+ }
+ 
+ document.write("<b> Reverse Counting </b> <br> <br>");
+
+ for( i = 10; i >= 1; i--){
+    document.write(i + " , " );
+ }
