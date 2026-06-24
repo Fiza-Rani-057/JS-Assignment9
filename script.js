@@ -38,4 +38,15 @@ document.write("Empt Multidimensional Array");
  document.write(array3[8]+ "<br>");
  document.write(array3[9]+ "<br>");
 
+//  Question 4
+
+  document.write( "<h1>" + "Question 4" + "<br>"  + "</h1>");
+
+  var table = +prompt("Enter any number");
+  var tbLength = +prompt("Enter Table length");
+
+  for( i = 1; i < tbLength; i++){
+    document.write(table + "x" + i + "=" +  (table*i) + "<br>");
+  }
+
 
