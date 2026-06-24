@@ -137,3 +137,22 @@ document.write( "<h1>" + "Question 6" + "<br>"  + "</h1>");
  }
  document.write("Array items:" + largest + "<br>");
  document.write("The largest number is:" + largestNum);
+
+//  Question 9 
+
+ document.write( "<h1>" + "Question 9" + "<br>"  + "</h1>");
+
+ var smallest = [24, 53, 78, 91, 12];
+ var smallestNum = smallest[0];
+
+ for(i = 0; i< smallest.length; i++){
+   if(smallest[i] < smallestNum){
+        smallestNum = smallest[i]
+    }
+ }
+  document.write("Array items:" + smallest + "<br>");
+ document.write("The smallest number is:" + smallestNum);
+
+//  Question 10 
+
+ document.write( "<h1>" + "Question 10" + "<br>"  + "</h1>");
