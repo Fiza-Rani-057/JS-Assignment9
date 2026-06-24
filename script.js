@@ -123,3 +123,17 @@ document.write( "<h1>" + "Question 6" + "<br>"  + "</h1>");
         "is not available in our bakery");
  }
   
+//  Question 8 
+
+ document.write( "<h1>" + "Question 8" + "<br>"  + "</h1>");
+
+ var largest = [24, 53, 78, 91, 12];
+ var largestNum = largest[0];
+
+ for( i = 0; i< largest.length; i++){
+    if(largest[i] > largestNum){
+        largestNum = largest[i]
+    }
+ }
+ document.write("Array items:" + largest + "<br>");
+ document.write("The largest number is:" + largestNum);
