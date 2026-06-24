@@ -156,3 +156,9 @@ document.write( "<h1>" + "Question 6" + "<br>"  + "</h1>");
 //  Question 10 
 
  document.write( "<h1>" + "Question 10" + "<br>"  + "</h1>");
+
+  document.write("<h3> Multiples of 5 </h3>"); 
+
+  for(i = 5; i <= 100; i+=5){
+    document.write(i + " , ");
+  }
