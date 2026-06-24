@@ -100,3 +100,26 @@ document.write( "<h1>" + "Question 6" + "<br>"  + "</h1>");
   for(i = 2; i< 20; i+=2){
     document.write(i + "k,")
   }
+
+//   Question 7
+
+ document.write( "<h1>" + "Question 7" + "<br>"  + "</h1>");
+
+ var bakery = ["pattis", "cake", "cookie", "apple pie", "chips"];
+ var userInput = prompt("Welcome to our bakery.What do you want to order");
+
+ var found = false;
+
+ for(var i = 0; i < bakery.length; i++){
+   if(userInput.toLowerCase() === bakery[i].toLowerCase()){
+    found = true;
+    document.write( userInput +" is available at index" + i 
+        + "in our bakery");
+        break;
+   }
+ }
+ if(found === false){
+    document.write("we are sorry" + userInput + 
+        "is not available in our bakery");
+ }
+  
