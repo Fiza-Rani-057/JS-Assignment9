@@ -22,5 +22,20 @@ document.write("Empt Multidimensional Array");
  document.write(array2[1] + "<br>");
  document.write(array2[2] + "<br>");
 
+//  Question 3
+
+ document.write( "<h1>" + "Question 3" + "<br>"  + "</h1>");
+
+ var array3 = [1, 2 , 3, 4, 5, 6, 7, 8, 9, 10];
+
+ document.write(array3[0]+ "<br>");
+ document.write(array3[1]+ "<br>");
+ document.write(array3[2]+ "<br>");
+ document.write(array3[3]+ "<br>");
+ document.write(array3[4]+ "<br>");
+ document.write(array3[5]+ "<br>");
+ document.write(array3[6]+ "<br>");
+ document.write(array3[8]+ "<br>");
+ document.write(array3[9]+ "<br>");
 
 
