@@ -43,10 +43,26 @@ document.write("Empt Multidimensional Array");
   document.write( "<h1>" + "Question 4" + "<br>"  + "</h1>");
 
   var table = +prompt("Enter any number");
-  var tbLength = +prompt("Enter Table length");
+  var tbLength = 11;
 
   for( i = 1; i < tbLength; i++){
-    document.write(table + "x" + i + "=" +  (table*i) + "<br>");
+    document.write(table +  "x " + i + " = " +  (table*i) + "<br>" + "<br>");
   }
 
+  document.write("Table number:" + table  +"<br>");
+  document.write("Table length:" + tbLength + "<br>");
 
+//   Question 5
+
+  document.write( "<h1>" + "Question 5" + "<br>"  + "</h1>");
+  
+  var fruits = ["apple" ,"banana", "mango", "strawberry", "orange"];
+
+  for(var i = 0;  i < fruits.length; i++){
+    document.write(fruits[i] + "<br>");
+  }
+ document.write("Element at index 0 is:" + fruits[0] + "<br>");
+ document.write("Element at index 1 is:" + fruits[1] + "<br>");
+ document.write("Element at index 2 is:" + fruits[2] + "<br>");
+ document.write("Element at index 3 is:" + fruits[3] + "<br>");
+ document.write("Element at index 4 is:" + fruits[4] + "<br>");
